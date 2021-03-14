@@ -48,6 +48,7 @@ public class ModuleManager {
         addMod(new SelfTrap());
         addMod(new SelfWeb());
         addMod(new Surround());
+        addMod(new Burrow());
         //Exploits
         addMod(new FastBreak());
         addMod(new LiquidInteract());
