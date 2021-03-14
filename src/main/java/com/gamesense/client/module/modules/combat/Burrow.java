@@ -25,7 +25,7 @@ import net.minecraft.util.math.Vec3d;
  * @author Ciruu
  */
 
-public class InstantBurrow extends ToggleableFeature {
+public class InstantBurrow extends Module {
 
     private final Setting<Boolean> rotate = new Setting<>("Rotate", "Rotate", this, false);
     private final Setting<Float> offset = new Setting<>("Offset", "Offset", this, 7.0F, -20.0F, 20.0F);
